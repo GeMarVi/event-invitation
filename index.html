@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="src/style/normalize.css" />
+      <link rel="stylesheet" href="src/style/style.css" />
+      <title>Vite + TS</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="header-opacity"></div>
+         <div class="header-headings separation">
+            <h1 class="header-title quicksand-font">¡Felicitaciones!</h1>
+            <h2 class="header-description quicksand-font">
+               Haz sido invitado al IX aniversario de entrega de preseas de la
+               UTP
+            </h2>
+         </div>
+      </header>
+      <section class="slider">
+         <div class="slider-track">
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+         </div>
+         <div class="slider-track">
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+            <div class="slide">
+               <img src="/logo.png" alt="logo" class="slide-img" />
+            </div>
+            <div class="slide">
+               <p class="slide-paragraph">Bienvenido</p>
+            </div>
+         </div>
+      </section>
+      <section class="bg">
+         <div class="date container">
+            <div class="event-date">
+               <h3 class="event-title separation">Has sido cordialmente invitado</h3>
+               <p class="event-paragraph separation">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eligendi, deserunt eius vel facilis ab unde porro nulla
+                  reprehenderit a quisquam amet totam est. Dolorum quo, delectus
+                  neque repellendus quis cumque.
+               </p>
+            </div>
+            <div>
+               <div class="event-days" id="event-date">
+                  <div class="date-container">
+                     <p class="date-info" id="days"></p>
+                     <p class="date-name-mobile">D</p>
+                     <p class="date-name">Dias</p>
+                  </div>
+                  <p class="date-separator">:</p>
+                  <div class="date-container">
+                     <p class="date-info" id="hours"></p>
+                     <p class="date-name-mobile">H</p>
+                     <p class="date-name">Horas</p>
+                  </div>
+                  <p class="date-separator">:</p>
+                  <div class="date-container">
+                     <p class="date-info" id="minutes"></p>
+                     <p class="date-name-mobile">M</p>
+                     <p class="date-name">Minutos</p>
+                  </div>
+                  <p class="date-separator">:</p>
+                  <div class="date-container">
+                     <p class="date-info" id="seconds"></p>
+                     <p class="date-name-mobile">S</p>
+                     <p class="date-name">Segundos</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="timeline">
+         <div class="image-interior">
+            <img src="/premios.jpg" alt="catillo interior" />
+         </div>
+         <div class="timeline-container">
+            <div class="timeline-presentation">
+               <div class="presea-container">
+                  <img class="presea" src="/presea.png" alt="presea" />
+               </div>
+               <div class="presea-info separation">
+                  <h3>Únete a nuestra celebración</h3>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Optio, incidunt. Expedita et cumque similique unde, modi
+                     labore ullam veniam placeat sequi, iure ratione aut
+                     asperiores alias dicta dolor
+                  </p>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Nisi qui cum dolores in exercitationem architecto expedita
+                     eos, ipsam voluptatum, eligendi libero recusandae quod
+                     dicta quis atque
+                  </p>
+               </div>
+            </div>
+            <div class="timeline-child separation">
+               <div class="timeline-item">
+                  <div class="timeline-hour">
+                     <p class="timeline-hour-paragraph">7:00 - 7:30 PM</p>
+                  </div>
+                  <div class="timeline-info">
+                     <p class="timeline-info-title">Presentación</p>
+                     <p class="timeline-info-description">
+                        The dance floor will open up here, and we'll dance and
+                        mingle to our favorite tunes. I have a special speech
+                        here Desserts and drinks will be served, and the party
+                        will go on.
+                     </p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline-hour">
+                     <p class="timeline-hour-paragraph">7:30 - 8:00 PM</p>
+                  </div>
+                  <div class="timeline-info">
+                     <p class="timeline-info-title">Discurso de apertura</p>
+                     <p class="timeline-info-description">
+                        The dance floor will open up here, and we'll dance and
+                        mingle to our favorite tunes. I have a special speech
+                        here Desserts and drinks will be served, and the party
+                        will go on.
+                     </p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline-hour">
+                     <p class="timeline-hour-paragraph">8:00 - 9:00 PM</p>
+                  </div>
+                  <div class="timeline-info">
+                     <p class="timeline-info-title">Banquete</p>
+                     <p class="timeline-info-description">
+                        The dance floor will open up here, and we'll dance and
+                        mingle to our favorite tunes. I have a special speech
+                        here Desserts and drinks will be served, and the party
+                        will go on.
+                     </p>
+                  </div>
+               </div>
+               <div class="timeline-item">
+                  <div class="timeline-hour">
+                     <p class="timeline-hour-paragraph">9:00 - 10:00 PM</p>
+                  </div>
+                  <div class="timeline-info">
+                     <p class="timeline-info-title">Discurso final</p>
+                     <p class="timeline-info-description">
+                        The dance floor will open up here, and we'll dance and
+                        mingle to our favorite tunes. I have a special speech
+                        here Desserts and drinks will be served, and the party
+                        will go on.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="location separation">
+               <div class="location-item">
+                  <p class="location-title">Fecha y hora</p>
+                  <p class="location-info">25/Septiembre/2024</p>
+                  <p class="location-info-mobile">25/09/2024</p>
+                  <p class="location-info">7:00 PM.</p>
+                  <p class="location-info-mobile">7:00 PM.</p>
+               </div>
+               <div class="location-item">
+                  <p class="location-title">Dirección</p>
+                  <p class="location-direction">Castillo de chapultepec</p>
+                  <p class="location-direction">I sección, Miguel Hidalgo</p>
+                  <p class="location-direction">11580 Ciudad de México.</p>
+               </div>
+            </div>
+            <div class="maps separation">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8162531917105!2d-99.18097477233847!3d19.420343556870044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fecd47ed8f23%3A0xa6e0008524818b32!2sCastillo%20de%20Chapultepec!5e0!3m2!1ses-419!2smx!4v1720906352798!5m2!1ses-419!2smx"
+                  width="600"
+                  height="400"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+               ></iframe>
+            </div>
+            <div class="confirm container separation">
+               <h2 class="confirm-title">Confirmación de asistencia</h2>
+               <p class="confirm-description">
+                  Para nosotros es muy importante contar con su asistencia,
+                  entendemos que por razones extraordinarias no pueda asistir a
+                  este acontecimiento, por ello le pedimos que pueda confirmar
+                  su asistencia en caso de que si pueda acompañarnos a esta
+                  ocación.
+               </p>
+
+               <div class="btn-container">
+                  <button class="btn">
+                     <i class="animation"></i>Confirmar<i class="animation"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="thanks">
+         <div class="thanks-container separation">
+            <h3>Agradecimientos y menciones especiales</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur</h6>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Doloribus excepturi veritatis tenetur dignissimos porro officiis
+               necessitatibus suscipit, repudiandae quia tempore facere sed
+               explicabo similique, voluptates consectetur aut molestias
+               architecto nam!
+            </p>
+         </div>
+      </section>
+      <footer class="footer">
+         <p class="copyright separation">
+            &copy; Universidad Tepantlato. Todos los derechos reservados
+            2024
+         </p>
+      </footer>
+      <script type="module" src="/src/main.ts"></script>
+   </body>
+</html>
